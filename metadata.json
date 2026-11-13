@@ -1,0 +1,6 @@
+{
+  "name": "Sukoono: Relax & Sleep Sounds",
+  "description": "Ambient sleep and relaxation soundscapes, mindful focus timer, daily habit tracker, and routine planner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer focus target ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26" />
+
+    <!-- Radiant inner sun/focus circle -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M54,54m-12,0a12,12 0 1,1 24,0a12,12 0 1,1 -24,0" />
+
+    <!-- Zenith Apex spark / flame -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34 C51,44 47,48 47,54 C47,58 50,61 54,61 C58,61 61,58 61,54 C61,48 57,44 54,34 Z" />
+
+    <!-- 4 cardinal tick marks -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M52,18h4v6h-4z M52,84h4v6h-4z M18,52h6v4h-6z M84,52h6v4h-6z" />
+</vector>
